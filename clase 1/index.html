@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Form Clase 1</title>
+
+  <link href="styles.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <script defer src="validar.js"></script>
+
+</head>
+
+
+<body class="tinted-image">
+
+<main>
+  <div class="container">    
+        <div class="big">
+
+          <div class="titulo">
+            <h1><strong> Learn to code by watching others</strong></h1>
+          </div>
+
+          <div class="subtitulo">
+             <p><strong>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable.</strong></p>
+          </div>
+        
+        </div>
+        
+        <div class="big">
+
+          <div class="row try">  
+            <button type="button" class=" miboton btn btn-primary btn-lg btn-block"><strong> Try it free 7 </strong> ST days then $20/mo.thereafter</button>
+          </div>
+
+          <div class="miform try">
+
+              <form>
+                  <div class="form-group nombre">
+                      <label for="exampleName">Name</label>
+                      <input type="email" class="form-control" id="exampleName" placeholder="Enter Name">     
+                    </div>
+
+                    <div class="form-group apellido">
+                        <label for="exampleLastName">Last Name</label>
+                        <input type="email" class="form-control" id="exampleLastName" placeholder="Enter Last Name">     
+                    </div>
+
+                  <div class="form-group correo">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleEmail"  placeholder="Enter email">       
+                  </div>
+
+                  <div class="form-group pwd">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="examplePassword" placeholder="Password">
+                  </div>
+
+                  <div class="row">
+                    <button type="button" onclick="validar()" class=" miboton btn btn-success btn-lg btn-block">CLAIM YOUR FREE TRIAL</button>
+                  </div>
+                  <div id="resultado"></div>
+
+              </form>
+
+            </div>
+                 
+                
+                              
+
+                
+      
+
+          <div class="row">
+           
+          </div>
+      
+        </div>
+
+</main>
+
+
+  
+  <footer>
+    <!-- <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p> -->
+  </footer>
+
+</body>
+</html>
